@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vibrant-primary: #ff4d4d;
+  --color-vibrant-secondary: #ffd32a;
+  --color-vibrant-accent: #3c40c6;
+  --color-vibrant-charcoal: #1e272e;
+  --color-vibrant-cardbg: #f1f2f6;
+  
+  --shadow-retro: 4px 4px 0px rgba(30, 39, 46, 0.1);
+  --shadow-retro-hover: 6px 6px 0px rgba(30, 39, 46, 0.15);
+  --shadow-retro-sm: 2px 2px 0px rgba(30, 39, 46, 0.08);
+
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: var(--color-vibrant-charcoal);
+}
+
+.custom-retro-card {
+  background-color: #ffffff;
+  border: 2px solid #1e272e;
+  box-shadow: var(--shadow-retro);
+  border-radius: 16px;
+  transition: all 0.2s ease;
+}
+
+.custom-retro-card:hover {
+  box-shadow: var(--shadow-retro-hover);
+}
+
+.custom-retro-btn {
+  border: 2px solid #1e272e;
+  box-shadow: var(--shadow-retro-sm);
+  transition: all 0.15s ease;
+}
+
+.custom-retro-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px rgba(30, 39, 46, 0.1);
+}

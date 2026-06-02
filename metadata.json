@@ -1,0 +1,6 @@
+{
+  "name": "Իսպաներեն Subjuntivo",
+  "description": "Իսպաներենի Subjuntivo եղանակի մանրամասն բացատրություն հայերենով և 6 ինտերակտիվ խաղեր:",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
